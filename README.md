@@ -1,8 +1,8 @@
 # Chega mais, esse é o meu perfil!
 <div>
   <div>
-  <img height="140em" src="(https://github-readme-stats.vercel.app/api/top-langs/?username=azrael-developer&layout=compact&langs_count=6&theme=tokyonight)"/>
-  <img height="140em" src="(https://github-readme-stats.vercel.app/api?username=azrael-developer&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true)"/>
+  <img height="140em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=azrael-developer&layout=compact&langs_count=6&theme=tokyonight"/>
+  <img height="140em" src="https://github-readme-stats.vercel.app/api?username=azrael-developer&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
 </div>
     <img src="https://servidor-estatico-one-wheat.vercel.app/notebook.png" min-width="400px" max-width="400px" width="400px" align="right"/>
 <div style="display: grid; grid-template-columns: 1fr 1fr;grid-template-areas: 'titulo titulo' 'item1 item2' 'item3 item4';">
