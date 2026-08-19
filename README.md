@@ -55,11 +55,3 @@
     </td>
   </tr>
 </table>
-
-<br>
-<hr>
-<br>
-
-<h3 align="center">📊 Minhas Estatísticas no GitHub</h3>
-<br>
-<div align="center">
