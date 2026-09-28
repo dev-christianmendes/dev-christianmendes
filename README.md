@@ -128,7 +128,7 @@
 <a href="mailto:christianmendes645@gmail.com">
   <img src="https://img.shields.io/badge/-Gmail-000000?style=for-the-badge&logo=gmail&logoColor=39FF14" alt="Gmail">
 </a>
-<a href="https://www.linkedin.com/in/dev-christianmendes/">
+<a href="www.linkedin.com/in/christian-mendes-b0073118b">
   <img src="https://img.shields.io/badge/-LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=39FF14" alt="LinkedIn">
 </a>
 <a href="https://github.com/dev-christianmendes">
