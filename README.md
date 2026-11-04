@@ -1,140 +1,67 @@
-<div align="center">
+<h1 align="center">Christian Mendes</h1>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=140&section=header&text=CHRISTIAN%20MENDES&fontSize=38&fontColor=39FF14&fontAlignY=42&fontAlign=50&animation=fadeIn&desc=%3E%20Full%20Stack%20Developer%20_&descAlignY=68&descAlign=50&descColor=00FF9C&fontFamily=monospace" width="100%"/>
+<p align="center">
+  <b>Desenvolvedor Full Stack</b> · automação de processos em produção e sistemas web testados de ponta a ponta<br>
+  TypeScript · Python · Java — Franca/SP, Brasil
+</p>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2800&pause=900&color=39FF14&background=00000000&center=true&vCenter=true&width=640&lines=christian%40dev%3A~%24+whoami;Backend+%C2%B7+Frontend+%C2%B7+Automa%C3%A7%C3%A3o+%C2%B7+IA;Java+%C2%B7+Python+%C2%B7+JS+%2F+TS+%C2%B7+SQL;Building+agents%2C+APIs+%26+workflows_" alt="Typing SVG" />
-</a>
+<p align="center">
+  🇧🇷 Português · <a href="https://github.com/dev-christianmendes/dev-christianmendes/blob/main/README.en.md">🇺🇸 English</a>
+</p>
 
-</div>
+---
 
-<br>
+### Agora
 
-```
+- 💼 **Desenvolvedor Full Stack (PJ)** na **Lev Negócios**, desde outubro de 2026
+- 🎓 Cursando **Análise e Desenvolvimento de Sistemas** na Universidade de Franca (2026–2028)
+- 🔧 Evoluindo os projetos abaixo: testes, CI e READMEs que dizem exatamente o que o código faz
 
-┌─[christian@devbox]─[~]
-└──╼ $ cat about.txt
+### Experiência
 
-  role        Full Stack Developer
-  experience  Luizalabs
-  education   ADS @ Universidade de Franca
-  os          Linux / Windows
-  focus       Software · Automação · IA
+**Luizalabs** — Desenvolvedor Full Stack (2025–2026) · Analista de Sistemas / Suporte Técnico (2021–2025)
 
-└──╼ $ _
+- Orquestrador de automações (worker/CLI, Python + Node.js) com 12 tarefas: chamados operacionais recorrentes caíram de **5–10 min para menos de 1 min** (TMA −80%+)
+- API REST em Python/Django que substituiu SQL manual por **6 operações de negócio auditáveis**
+- Bot Node.js/TypeScript integrando o chat corporativo à plataforma de tickets
+- Workflow n8n para o ciclo de vida de contas corporativas, com trilha de auditoria
+- Uma das duas referências técnicas de code review num squad de 6 devs
 
-```
+<sub>Código proprietário: projetos citados sem link.</sub>
 
-<br>
+### Projetos em destaque
 
-## `$ cat stack.sh`
+| Projeto | Problema → solução | Stack |
+|---|---|---|
+| **[Legião MC](https://github.com/dev-christianmendes/legiao-mc-case-study)**<br><sub>estudo de caso · em produção</sub> | Motoclube gerindo ingresso, mensalidade e caixa em planilhas → sistema web em produção, com acesso por perfil garantido no banco (RLS), 2FA, captcha e CSP. 142 testes unitários e E2E com testes de ataque à API no CI. Desenvolvedor único; código privado do cliente. | React · TypeScript · Supabase · PostgreSQL |
+| **[City Twin](https://github.com/dev-christianmendes/resilia-hackathon-unifran)**<br><sub>hackathon Unifran</sub> | Avaliar a resiliência de Franca/SP a eventos climáticos extremos → gêmeo digital 3D que simula chuva extrema, calor, granizo, ventania e queimadas, testa intervenções e otimiza o portfólio de obras por orçamento. 82 testes, CI/CD com Docker. | FastAPI · React · Three.js · Docker |
+| **[Anatomia 3D](https://github.com/dev-christianmendes/anatomia_humana_3d)**<br><sub>[demo](https://anatomia-humana-3d.vercel.app)</sub> | Explorar a anatomia humana em 3D direto no navegador → atlas com 15 sistemas e 2.234 estruturas (dados BodyParts3D), busca em português, isolamento e vista explodida. Projeto educacional. | React · Three.js · Spring Boot · PostgreSQL |
+| **[RPA SIDRA/IBGE](https://github.com/dev-christianmendes/desafio-ibge-1209-lev)** | Coletar dados do SIDRA pela interface, sem API → robô Playwright que configura a Tabela 1209 (60+ anos, 27 UFs, Censo 2022), baixa e valida o CSV. CI exige 100% de cobertura. | Python · Playwright · pytest |
+| **[ViaGuardian](https://github.com/dev-christianmendes/projeto_senatran_2026_ViaGuardian)**<br><sub>[demo](https://viaguardian-demo.vercel.app)</sub> | Risco viário para motociclistas → API geoespacial (PostGIS) com mapa de calor e triagem de ocorrências. Protótipo: a detecção no app ainda é simulada. Submetido ao Prêmio Senatran 2026, resultado pendente. | FastAPI · PostGIS · React · React Native |
+| **[Teste técnico Java](https://github.com/dev-christianmendes/teste-backend-java)** | Regras de negócio de RH com Streams, BigDecimal e LocalDate, com testes JUnit 5 e CI. | Java 17 · JUnit 5 |
 
-**Linguagens**
-<div>
-  <img src="https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=openjdk&logoColor=39FF14" />
-  <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=39FF14" />
-  <img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=39FF14" />
-  <img src="https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=39FF14" />
-  <img src="https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=postgresql&logoColor=39FF14" />
-</div>
+### Stack
 
-**Backend & Frontend**
-<div>
-  <img src="https://img.shields.io/badge/Spring-000000?style=for-the-badge&logo=spring&logoColor=39FF14" />
-  <img src="https://img.shields.io/badge/Django-000000?style=for-the-badge&logo=django&logoColor=39FF14" />
-  <img src="https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=39FF14" />
-  <img src="https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=39FF14" />
-  <img src="https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=39FF14" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=39FF14" />
-  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=39FF14" />
-</div>
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-087EA4?logo=react&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=springboot&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 
-**Banco de Dados**
-<div>
-  <img src="https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=39FF14" />
-  <img src="https://img.shields.io/badge/MySQL-000000?style=for-the-badge&logo=mysql&logoColor=39FF14" />
-  <img src="https://img.shields.io/badge/Oracle-000000?style=for-the-badge&logo=oracle&logoColor=39FF14" />
-  <img src="https://img.shields.io/badge/MongoDB-000000?style=for-the-badge&logo=mongodb&logoColor=39FF14" />
-</div>
+- **Domínio forte:** TypeScript, React, Python, FastAPI, SQL, testes automatizados (Vitest, pytest, Playwright), CI com GitHub Actions
+- **Experiência prática:** Java + Spring Boot, Node.js/Express, Django, PostgreSQL/Supabase, MySQL, Oracle, Docker, n8n, Three.js
+- **Contato pontual:** Next.js, React Native, MongoDB, AWS, LLMs/MCP
 
-**DevOps & Cloud**
-<div>
-  <img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=39FF14" />
-  <img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=39FF14" />
-  <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=39FF14" />
-  <img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=39FF14" />
-  <img src="https://img.shields.io/badge/AWS-000000?style=for-the-badge&logo=amazonaws&logoColor=39FF14" />
-  <img src="https://img.shields.io/badge/Google_Cloud-000000?style=for-the-badge&logo=googlecloud&logoColor=39FF14" />
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dev-christianmendes&theme=github_dark">
+    <img alt="Linguagens mais usadas nos commits" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dev-christianmendes&theme=github">
+  </picture>
+</p>
 
-**IA, Automação & Qualidade**
-<div>
-  <img src="https://img.shields.io/badge/LLMs%20%2F%20Agents-000000?style=for-the-badge&logo=openai&logoColor=39FF14" />
-  <img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=anthropic&logoColor=39FF14" />
-  <img src="https://img.shields.io/badge/n8n-000000?style=for-the-badge&logo=n8n&logoColor=39FF14" />
-  <img src="https://img.shields.io/badge/SonarQube-000000?style=for-the-badge&logo=sonarqube&logoColor=39FF14" />
-  <img src="https://img.shields.io/badge/Playwright-000000?style=for-the-badge&logo=playwright&logoColor=39FF14" />
-</div>
+### Contato
 
-<br>
-
-## `$ ./run stats.sh`
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=dev-christianmendes&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=39FF14&icon_color=00FF9C&text_color=C9D1D9" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dev-christianmendes&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=39FF14&text_color=C9D1D9" height="165"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=dev-christianmendes&theme=dark&hide_border=true&background=0D1117&ring=39FF14&fire=39FF14&currStreakLabel=39FF14" height="165"/>
-
-</div>
-
-<br>
-
-## `$ ls ~/projects`
-
-<br>
-
-**`backoffice-hub-cli/`** — Orquestrador Python/Node.js que centraliza automações de status, correção de dados e aprovações. **Reduziu o TMA de tickets operacionais em mais de 80%.**
-`Python` `Node.js` `Automação`
-
-**`chat-support-bot/`** — Aplicação Node.js/TypeScript/Express que permite à equipe de suporte operar tickets direto do chat corporativo, com rastreabilidade completa.
-`Node.js` `TypeScript` `Express`
-
-**`process-automation-api/`** — API Python/REST que substitui scripts manuais de banco por operações auditadas, com autenticação JWT e integração ao sistema financeiro.
-`Python` `REST` `JWT`
-
-**`offboarding-workflow/`** — Workflow n8n que identifica e remove automaticamente contas inativas após período de carência, com trilha de auditoria via ticket.
-`n8n` `Automação`
-
-**`via-guardian/`** 🏆 — Plataforma de segurança viária com Edge AI, backend geoespacial e app mobile. **Prêmio SENATRAN 2026.**
-`Edge AI` `Geoespacial` `Mobile`
-
-**`anatomia-3d/`** — Exploração 3D da anatomia humana: catálogo com 720 estruturas anatômicas, API REST, relações anatômicas, busca e visualização explodida.
-`React` `Three.js` `Spring Boot` `PostgreSQL` `Docker`
-
-<br>
-
-## `$ cat currently_exploring.txt`
-
-`Software Architecture` · `AI Engineering` · `Intelligent Agents` · `Cloud` · `DevOps` · `System Design`
-
-<br>
-
-## `$ cat contact.txt`
-
-<div align="center">
-
-<a href="mailto:christianmendes645@gmail.com">
-  <img src="https://img.shields.io/badge/-Gmail-000000?style=for-the-badge&logo=gmail&logoColor=39FF14" alt="Gmail">
-</a>
-<a href="https://www.linkedin.com/in/christian-mendes-b0073118b">
-  <img src="https://img.shields.io/badge/-LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=39FF14" alt="LinkedIn">
-</a>
-<a href="https://github.com/dev-christianmendes">
-  <img src="https://img.shields.io/badge/-GitHub-000000?style=for-the-badge&logo=github&logoColor=39FF14" alt="GitHub">
-</a>
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=60&section=footer" width="100%"/>
+[LinkedIn](https://www.linkedin.com/in/christian-mendes-b0073118b) · [christianmendes645@gmail.com](mailto:christianmendes645@gmail.com)
